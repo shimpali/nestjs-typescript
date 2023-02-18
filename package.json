@@ -1,9 +1,9 @@
 {
-  "name": "nest-typescript-starter",
+  "name": "nestjs-typescript",
   "private": true,
   "version": "1.0.0",
-  "description": "Nest TypeScript starter repository",
-  "license": "MIT",
+  "description": "NestJS repo for learning",
+  "license": "",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
@@ -24,7 +24,6 @@
   },
   "dependencies": {
     "@nestjs/cli": "^9.1.8",
-    "joi": "^17.7.0",
     "@nestjs/common": "^9.2.1",
     "@nestjs/config": "^2.2.0",
     "@nestjs/core": "^9.2.1",
@@ -41,14 +40,15 @@
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.0",
     "cookie-parser": "^1.4.6",
+    "joi": "^17.7.0",
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.1",
     "passport-local": "^1.0.0",
-    "pg": "^8.8.0",
+    "pg": "^8.9.0",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^4.0.5",
     "rxjs": "^7.8.0",
-    "typeorm": "^0.3.11"
+    "typeorm": "^0.3.12"
   },
   "devDependencies": {
     "@nestjs/schematics": "^9.0.4",
